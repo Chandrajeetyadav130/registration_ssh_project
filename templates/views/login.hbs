@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {{!-- <link rel="stylesheet" type="text/css" href="css/main.css"> --}}
+    {{>navlink}}
+</head>
+<body>
+   
+    <div class="container-fluid">
+        {{>nav}}
+        <div class="row login_page">
+
+            <div class="col-4  col-lg-6 mx-auto form1  d-flex justify-content-center">
+             
+                {{!-- login form start --}}
+            <form action="/login" method="POST">
+            <div class=""><p>Please Login Your Details</p></div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" required name="email">
+    {{!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> --}}
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1"required name="password">
+  </div>
+  <div class="mb-3 form-check">
+    
+ 
+  </div>
+  <button type="submit" class="btn btn-primary login_btn">Submit</button>
+</form>
+                {{!-- login form end --}}
+
+            </div>
+
+        </div>
+
+    </div>
+    {{>footer}}
+    
+</body>
+</html>

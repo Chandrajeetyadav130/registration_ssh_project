@@ -1,0 +1,46 @@
+
+.form1 {
+    margin-top: 100px;
+    background-color: blue;
+}
+.ul_div{
+    margin-left: auto;
+   
+}
+.login_btn{
+    margin-bottom: 40px;
+    margin-left: 50px;
+   
+}
+.reg_btn{
+    box-sizing: border-box;
+    width: 200px;
+    margin: 20px 200px;
+   
+}
+p{
+    font-size:4em;
+    font: 1em sans-serif;
+    font-weight: bold;
+    margin-top: 20px;   
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.footer1{
+    width:100%;
+    margin-top: auto;
+    background-color: black;
+}
+.nav1{
+    margin-top: 20px;
+    
+}
+
+/* .form-control{
+    width: 400px;
+    margin-left: auto;
+} */
+
